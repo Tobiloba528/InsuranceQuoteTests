@@ -57,7 +57,7 @@ public class InsuranceQuoteTestSuiteTest
         driver.FindElement(By.Id("accidents")).Click();
         driver.FindElement(By.Id("accidents")).SendKeys("0");
         driver.FindElement(By.Id("btnSubmit")).Click();
-        driver.FindElement(By.Id("btnSubmit")).Click();
+       
 
         //Assert
         {
